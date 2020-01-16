@@ -23,7 +23,7 @@ DEVICE_PATH := device/oneplus/enchilada
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := enchilada_defconfig
+TARGET_KERNEL_CONFIG := kronic_defconfig
 
 # Recovery
 TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/ramdisk-recovery.cpio
