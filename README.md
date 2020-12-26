@@ -21,15 +21,6 @@ Copyright 2018 - The LineageOS Project.
 ![OnePlus 6](https://cdn2.gsmarena.com/vv/pics/oneplus/oneplus-6-5.jpg "OnePlus 6")
 
 
-## Temporary build instructions
+## Heyoo
 
-```
-# Compiling
-$ m[ake|ka] bootimage systemimage
-
-# Installing
-$ fastboot --disable-verity --disable-verification flash vbmeta stock_vbmeta.img
-$ fastboot flash boot boot.img
-$ fastboot flash system system.img
-$ fastboot -w reboot
-```
+This branch is based on the crDroid 6 (10.0 branch) device tree, with basically no changes to the enchilada- or fajita-specific trees other than maybe updating the inlined TWRP recovery image to be Android 11-compatible. Cons: probably has half-broken bluetooth, wireless display, notch, FOD, etc. Pros: will probably boot.
