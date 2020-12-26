@@ -21,15 +21,6 @@ Copyright 2018 - The LineageOS Project.
 ![OnePlus 6](https://cdn2.gsmarena.com/vv/pics/oneplus/oneplus-6-5.jpg "OnePlus 6")
 
 
-## Temporary build instructions
+## Hola amiguitos
 
-```
-# Compiling
-$ m[ake|ka] bootimage systemimage
-
-# Installing
-$ fastboot --disable-verity --disable-verification flash vbmeta stock_vbmeta.img
-$ fastboot flash boot boot.img
-$ fastboot flash system system.img
-$ fastboot -w reboot
-```
+This branch is based on the crDroid 10.0 device tree, with some things removed that don't work (like inlined prebuilt TWRP), and updated unofficial lineage-18.1 commits from the LineageOS gerrit merged in. 
