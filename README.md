@@ -21,15 +21,8 @@ Copyright 2018 - The LineageOS Project.
 ![OnePlus 6](https://cdn2.gsmarena.com/vv/pics/oneplus/oneplus-6-5.jpg "OnePlus 6")
 
 
-## Temporary build instructions
+## Hola amiguitos
 
-```
-# Compiling
-$ m[ake|ka] bootimage systemimage
+Forked & rebased from the freshly-released official lineage-18.1 branch of the LineageOS device tree. 
 
-# Installing
-$ fastboot --disable-verity --disable-verification flash vbmeta stock_vbmeta.img
-$ fastboot flash boot boot.img
-$ fastboot flash system system.img
-$ fastboot -w reboot
-```
+* Please note that the lineage.dependencies file is woefully out of date; roomservice will not find everything necessary to compile the ROM correctly. 
