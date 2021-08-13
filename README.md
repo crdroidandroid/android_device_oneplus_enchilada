@@ -21,15 +21,9 @@ Copyright 2018 - The LineageOS Project.
 ![OnePlus 6](https://cdn2.gsmarena.com/vv/pics/oneplus/oneplus-6-5.jpg "OnePlus 6")
 
 
-## Temporary build instructions
+## Hola amiguitos
 
-```
-# Compiling
-$ m[ake|ka] bootimage systemimage
+This is my attempt to fix up and add a little crDroid customization flavor back into the device tree for OnePlus 6 (enchilada).
+Moved a few things to common that don't make sense to be separate, and separated a few things that don't make sense to be commonized.
 
-# Installing
-$ fastboot --disable-verity --disable-verification flash vbmeta stock_vbmeta.img
-$ fastboot flash boot boot.img
-$ fastboot flash system system.img
-$ fastboot -w reboot
-```
+Rebased on the official lineage-19.1 branch of the LineageOS device tree as of December 2022.
