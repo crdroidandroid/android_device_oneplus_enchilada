@@ -40,6 +40,16 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 
+# OnePlus
+PRODUCT_PACKAGES += \
+    oneplus-fwk.oneplus_sdm845
+
+PRODUCT_BOOT_JARS += \
+    oneplus-fwk.oneplus_sdm845
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
+
 # Inherit from oneplus sdm845-common
 $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
