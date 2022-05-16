@@ -378,8 +378,23 @@
         L -183, 0
         A 24.0, 24.0, 0, 0, 1, -159.0, 22.0
         A 64.0, 64.0, 0, 0, 0, -95.0, 80.0
-        L 95.0, 80.0 A 64.0, 64.0, 0, 0, 0, 159.0, 22.0
+        L 95.0, 80.0
+        A 64.0, 64.0, 0, 0, 0, 159.0, 22.0
         A 24.0, 24.0, 0, 0, 1, 183.0, 0
+        Z
+    </string>
+
+    <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
+         one single bounding rect per device edge to the app via
+         {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
+         appearance of the cutout as much as possible, and may be smaller than
+         config_mainBuiltInDisplayCutout
+         -->
+    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
+        M -157,0
+        V 79
+        H 157
+        V 0
         Z
     </string>
 
