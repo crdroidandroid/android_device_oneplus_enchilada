@@ -38,6 +38,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=OnePlus6 \
     TARGET_PRODUCT=OnePlus6 \
-    PRIVATE_BUILD_DESC="OnePlus6-user 8.1.0 OPM1.171019.011 273 release-keys"
+    PRIVATE_BUILD_DESC="OnePlus6-user 11   release-keys"
 
-BUILD_FINGERPRINT := OnePlus/OnePlus6/OnePlus6:8.1.0/OPM1.171019.011/06140300:user/release-keys
+BUILD_FINGERPRINT := OnePlus/OnePlus6/OnePlus6:11/RKQ1.201217.002/2111252325:user/release-keys
