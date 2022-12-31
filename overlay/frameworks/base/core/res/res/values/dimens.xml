@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 crDroid Android Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_default">28.0dp</dimen>
+    <dimen name="status_bar_height_portrait">80.0px</dimen>
+    <dimen name="status_bar_height_landscape">28.0dp</dimen>
+
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">8.0dp</dimen>
+    <!-- <dimen name="rounded_corner_radius">34.5dp</dimen> -->
+    <!-- <dimen name="rounded_corner_radius">88.4px</dimen> -->
+
+    <!-- Radius of the software rounded corners at the top of the display in its natural
+         orientation. If zero, the value of rounded_corner_radius is used. -->
+    <!-- <dimen name="rounded_corner_radius_top">26.5dp</dimen> -->
+    <!-- Radius of the software rounded corners at the bottom of the display in its natural
+         orientation. If zero, the value of rounded_corner_radius is used. -->
+    <!-- <dimen name="rounded_corner_radius_bottom">34.5dp</dimen> -->
+</resources>
