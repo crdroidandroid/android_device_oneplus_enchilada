@@ -396,7 +396,4 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-    <!-- Defines custom OEM sensor for pocket detection. -->
-    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
 </resources>
