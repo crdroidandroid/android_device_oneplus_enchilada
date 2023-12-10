@@ -11,6 +11,9 @@ odm/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 odm/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 odm/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 
+# ADSP Modules
+vendor/lib/rfsa/adsp/dirac_resource.dar
+
 # Camera
 vendor/lib/camera/oneplus6_vstab_db_0_1080p_video_30fps.config
 vendor/lib/camera/oneplus6_vstab_db_0_1080p_video_60fps.config
