@@ -49,6 +49,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.oneplus.fingerprint.extension@1.0.vendor
 
+# ih8sn
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/ih8sn.conf.enchilada:$(TARGET_COPY_OUT_SYSTEM)/etc/ih8sn.conf
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.oneplus_sdm845
